@@ -15,7 +15,7 @@ export class AppComponent {
   apiURL: string;
 
   constructor(private http: HttpClient) {
-    this.apiURL = 'https://apitarefas-luizknudsen.onrender.com';
+    this.apiURL = 'certoback2-production.up.railway.app';
     this.READ_tarefas();
   }
 
